@@ -6,6 +6,15 @@ body {
     margin: 0;
 }
 
+#container {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    width: 100%;
+    padding: 40px 0;
+    background-color: rgb(255, 251, 245);   /* fallback property */
+    background-image: linear-gradient(to right, rgb(225, 225, 255), rgb(255, 243, 226));
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(116, 148, 142);
